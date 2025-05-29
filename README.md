@@ -14,6 +14,9 @@ Each model has it's own folder:
 
 in each model folder there is a folder for each dataset run
 
+
+Seperate folders is available for each disentanglement metric implemented in this benchmark
+
 ## Standard benchmarking workflow (Blue)
 
 Files that end with _standard are the standard workflow. This includes model training after the defult pipelines,
