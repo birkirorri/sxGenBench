@@ -14,7 +14,7 @@ Each model has it's own folder:
 in each model folder there is a folder for each dataset run
 
 
-Seperate folder is available which has the disentanglement metric implemented in this benchmark
+Seperate folder is available for the standalone version of each disentanglement metric implemented in the benchmark. 
 
 ## Standard benchmarking workflow (Blue)
 
@@ -23,16 +23,16 @@ reconstruction and assessment of the recosntruction with all of the metrics and 
 
 ## Counterfactul predictions (Red) 
 
-Files that end with _LOO are the counterfactual predictions
+Files that end with _LOO are the counterfactual predictions. 
 
 
 ## Integration benchmark (Green) ---- And notes on how to run it
 
-Each model was trained again with a specific focus on using the batch removal pipeline presented by each author (If it was available)
+Each model was trained again with a specific focus on using the batch removal pipeline presented by each author (If it was available). 
 
 The "integration_Benchmark" folder has all of the integration benchmarks that were done. 
 The data used there is the extracted test_data for each dataset and also the reconstructed data which is in the .obsm as "X_reconstructed", 
-The X_reconstructed is then compared to the original test_data
+The X_reconstructed is then compared to the original test_data. 
 
 Notes about running the scib benchmark: 
 
