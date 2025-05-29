@@ -1,7 +1,7 @@
-# scGenBench - Benchmark of generative models for single cell RNA
+# sxGenBench - Benchmark of generative models for single cell RNA
 Later
 ![image](https://github.com/user-attachments/assets/4606a96d-6310-40af-b5ea-0a7cac2df0cf)
-General workflow for the benchmark
+Figure shows the general workflow for the benchmark
 
 Each model has it's own folder: 
 - Biolord
@@ -26,7 +26,7 @@ Files that end with _LOO are the counterfactual predictions
 
 ## Integration benchmark (Green) ---- And notes on how to run it
 
-The _____ folder has all of the integration benchmarks that were done. 
+The "integration_Benchmark" folder has all of the integration benchmarks that were done. 
 The data used there is the extracted test_data for each dataset and also the reconstructed data which is in the .obsm as "X_reconstructed", 
 The X_reconstructed is then compared to the original test_data
 
@@ -40,13 +40,11 @@ Notes about running the scib benchmark:
   
 
 
+## Notes on how to run each model (That had issues)
 
+# scgen: 
 
-
-
-Things to note: 
-
-Each file with 
+asfasfas
 
 
 
