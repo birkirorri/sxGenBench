@@ -18,8 +18,8 @@ Seperate folder is available which has the disentanglement metric implemented in
 
 ## Standard benchmarking workflow (Blue)
 
-Files that end with _standard are the standard workflow. This includes model training after the defult pipelines,
-reconstruction and disentanglement calculations
+Files that end with _standard are the standard workflow. This includes model training using defult pipelines proposed by authors,
+reconstruction and assessment of the recosntruction with all of the metrics and disentanglement calculations. 
 
 ## Counterfactul predictions (Red) 
 
@@ -27,6 +27,8 @@ Files that end with _LOO are the counterfactual predictions
 
 
 ## Integration benchmark (Green) ---- And notes on how to run it
+
+Each model was trained again with a specific focus on using the batch removal pipeline presented by each author (If it was available)
 
 The "integration_Benchmark" folder has all of the integration benchmarks that were done. 
 The data used there is the extracted test_data for each dataset and also the reconstructed data which is in the .obsm as "X_reconstructed", 
