@@ -40,15 +40,24 @@ Notes about running the scib benchmark:
   
 
 
-## Notes on how to run each model (That had issues)
+## Notes on how to run each model if there are issues: 
 
-# scgen: 
+CPA: 
 
-asfasfas
+CPA requires pytorch version 24.01 when using a GPU (Ucloud version). Using a newer version will cause package conflicts which could at least be fixed in a ucloud environment. If the user was running this locally this could be fixed more easily. 
+The stable version of CPA did not work so the developmental version was required. 
+After installing CPA importing caused an “ModuleNotFoundError” with tkinter,  the only solution was found was to remove the “from tkinter import N” line located in the cpa/_model.py. 
+Tkinter is not used anywhere else in the code so it does not have an effect on the functionality of the model. 
 
 
+scGen: 
+
+scGen requires pytorch version 24.01 when using a GPU (Ucloud version). 
 
 
+trVAE:
+
+trVAE requires pytorch version 24.01 when using a GPU (Ucloud version). 
 
 
 
@@ -57,7 +66,6 @@ asfasfas
 
 Raw processed datasets: 
 https://figshare.com/articles/dataset/Raw_datasets/29179964
-
 
 Log transformed and normalized datasets: 
 https://figshare.com/articles/dataset/Normalized_and_log_transformed_data/29179742
