@@ -3,6 +3,46 @@ Later
 ![image](https://github.com/user-attachments/assets/4606a96d-6310-40af-b5ea-0a7cac2df0cf)
 General workflow for the benchmark
 
+Each model has it's own folder: 
+- Biolord
+- CPA
+- trVAE
+- scGen
+- DRVI
+- scVI
+- Linear model
+
+in each model folder there is a folder for each dataset run
+
+## Standard benchmarking workflow (Blue)
+
+Files that end with _standard are the standard workflow. This includes model training after the defult pipelines,
+reconstruction and disentanglement calculations
+
+## Counterfactul predictions (Red) 
+
+Files that end with _LOO are the counterfactual predictions
+
+
+## Integration benchmark (Green) ---- And notes on how to run it
+
+The _____ folder has all of the integration benchmarks that were done. 
+The data used there is the extracted test_data for each dataset and also the reconstructed data which is in the .obsm as "X_reconstructed", 
+The X_reconstructed is then compared to the original test_data
+
+Notes about running the scib benchmark: 
+
+1. Install the scib package
+2. Install anndata2ri
+3. Launch an R enviorment in the terminal and do the following
+    - library (devtools)
+    - install_github("theislab/kBET")
+  
+
+
+
+
+
 
 Things to note: 
 
