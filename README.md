@@ -7,3 +7,19 @@ General workflow for the benchmark
 Things to note: 
 
 Each file with 
+
+
+
+
+
+
+
+
+##Datasets
+
+Raw processed datasets: 
+https://figshare.com/articles/dataset/Raw_datasets/29179964
+
+
+Log transformed and normalized datasets: 
+https://figshare.com/articles/dataset/Normalized_and_log_transformed_data/29179742
