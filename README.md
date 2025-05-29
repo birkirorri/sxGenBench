@@ -15,7 +15,7 @@ Each model has it's own folder:
 in each model folder there is a folder for each dataset run
 
 
-Seperate folders is available for each disentanglement metric implemented in this benchmark
+Seperate folder is available which has the disentanglement metric implemented in this benchmark
 
 ## Standard benchmarking workflow (Blue)
 
