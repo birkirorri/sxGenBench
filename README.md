@@ -1,4 +1,4 @@
-# sxGenBench - Benchmark of generative models for single cell and single nucleus RNA seq
+# sxGenBench - Benchmark of generative models for single cell and single nucleus RNA seq (sxRNA seq)
 ![image](https://github.com/user-attachments/assets/4606a96d-6310-40af-b5ea-0a7cac2df0cf)
 Figure shows the general workflow for the benchmark
 
